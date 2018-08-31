@@ -14,7 +14,7 @@ public class SoccerStatsApplication extends SpringBootServletInitializer {
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(SoccerStatsApplication.class);
     }
-
+    //added comment
     public static void main(String[] args) {
         SpringApplication.run(SoccerStatsApplication.class, args);
     }
